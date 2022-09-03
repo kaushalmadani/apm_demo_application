@@ -10,7 +10,6 @@
   "author": "kaushal",
   "license": "ISC",
   "dependencies": {
-    "@middlewarelabs-devs/melt-node-metrics": "^2.0.7",
     "@middlewarelabs-devs/mw-node-apm": "^2.0.9",
     "express": "^4.18.1"
   }
