@@ -1,4 +1,4 @@
-const tracker = require('@middlewarelabs-devs/mw-node-apm');
+const tracker = require('@middleware.io/node-apm');
 tracker.track();
 var express = require('express');  
 var app = express();
