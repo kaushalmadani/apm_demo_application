@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:4317 MW_API_KEY=218xbcpgpi1g11vy1umlnalhzr1lka1unjhj node index.js"
+    "start": "OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:4320 MW_API_KEY=218xbcpgpi1g11vy1umlnalhzr1lka1unjhj node index.js"
   },
   "author": "kaushal",
   "license": "ISC",
