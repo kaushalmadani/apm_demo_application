@@ -14,7 +14,8 @@ app.get('/first', function (req, res) {
 });
 app.get('/error', function (req, res) {
     tracker.error('error page');
-    res.send('Welcome to error page!');
+    // res.send('Welcome to error page!');
+    res.status(500).send("wrong");
 });
 app.get('/warn', function (req, res) {
     tracker.warn('warn page');
